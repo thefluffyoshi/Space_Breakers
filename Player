@@ -7,9 +7,11 @@ public class Player
     private int weapon_Attack;
     private String weapon_Name;
 
-    public Player()
+    public Player(String newName, int newHealth, int newAttack)
     {
-
+        name = newName;
+        health = newHealth;
+        attack = newAttack;
     }//end zero-arg constructor
 
     //TOSTRING
