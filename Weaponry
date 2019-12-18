@@ -1,0 +1,6 @@
+public class Weaponry
+{
+    public String weapon_Name;
+    public int weapon_attack;
+    public int weapon_dura;
+}
