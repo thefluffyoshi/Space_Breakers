@@ -1,0 +1,10 @@
+public class Bunnies
+{
+    private static int count;
+    public String name;
+    public int bunny_Health;
+    public int bunny_Heal;
+
+
+
+}
