@@ -10,5 +10,6 @@ public class SpaceBreakersDriver
 
         //Dogs
         Dogs Fluffy = new Dogs("Fluffy", 30, 30, 5);
+        System.out.println(Fluffy);
     }//end main
 }//end Driver
