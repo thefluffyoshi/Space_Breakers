@@ -19,6 +19,13 @@ public class Enemy
         enemy_Attack = newEnemy_Attack;
     } //multi arg constructors
 
+    //TOSTRING
+    public String toString()
+    {
+        String output = "";
 
+        return output;
+
+    }//end toString
 
 }//end Enemy class
