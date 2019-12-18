@@ -1,7 +1,22 @@
 public class Cats
 {
     private static int count;
-    public String name;
+    public String cat_name;
     public int cat_health;
     public int cat_attack;
-}
+
+    public Cats()
+    {
+        cat_name = null;
+        cat_health = 0;
+        cat_attack = 0;
+        count++;
+    }//end zero-arg constructor
+
+    //TOSTRING
+    public String toString()
+    {
+        String output = "";
+        return output;
+    }//end toString
+}//end cats
