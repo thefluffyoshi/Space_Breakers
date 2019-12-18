@@ -4,6 +4,7 @@ public class SpaceBreakersDriver
 {
     public static void main(String[] args)
     {
+    Scanner op1 = new Scanner(System.in);
         //Enemies
         Enemy Chris = new Enemy("Chris", 15, 5);
         Enemy Jose = new Enemy("Jose", 20, 10);
