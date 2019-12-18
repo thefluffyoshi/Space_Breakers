@@ -1,0 +1,38 @@
+
+public class Dogs
+{
+    public String dog_Name;
+    public int dog_Defense;
+    public int dog_Health;
+    public int dog_Attack;
+    private static int dog_Count;
+
+
+    //CONSTRUCTORS
+    public Dogs()
+    {
+        dog_Name = null;
+        dog_Defense = 0;
+        dog_Health = 0;
+        dog_Attack = 0;
+        dog_Count++;
+    }//end zero-arg constructor
+
+    public Dogs(String newDog_Name, int newDog_Defense, int newDog_Health, int newDog_Attack)
+    {
+        dog_Name = newDog_Name;
+        dog_Defense = newDog_Defense;
+        dog_Health = newDog_Health;
+        dog_Attack = newDog_Attack;
+    }//end multi-arg constructor
+
+    //GETTERS
+    public static int getDog_Count()
+    {
+        return dog_Count;
+    }
+
+    //BRAIN METHODS
+
+
+}//end class Dogs
