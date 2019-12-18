@@ -5,6 +5,14 @@ public class Bunnies
     public int bunny_Health;
     public int bunny_Heal;
 
+    public Bunnies()
+    {
+    }//end zero-arg constructor
 
-
-}
+    //TOSTRING
+    public String toString()
+    {
+        String output = "";
+        return output;
+    }//end toString
+}//end bunnies
