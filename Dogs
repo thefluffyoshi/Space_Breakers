@@ -34,5 +34,13 @@ public class Dogs
 
     //BRAIN METHODS
 
+    //TOSTRING
+    public String toString()
+    {
+        String output = "";
+        return output;
+    }//end toString
+
+
 
 }//end class Dogs
