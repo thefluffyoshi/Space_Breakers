@@ -1,0 +1,24 @@
+public class Enemy
+{
+    public int enemy_Health;
+    public int enemy_Attack;
+    public String enemy_Name;
+
+    //CONSTRUCTORS
+    public Enemy()
+    {
+        enemy_Name = null;
+        enemy_Attack = 0;
+        enemy_Health = 0;
+    }//end zero-arg
+
+    public Enemy(String newEnemy_Name, int newEnemy_Health, int newEnemy_Attack)
+    {
+        enemy_Name = newEnemy_Name;
+        enemy_Health = newEnemy_Health;
+        enemy_Attack = newEnemy_Attack;
+    } //multi arg constructors
+
+
+
+}//end Enemy class
