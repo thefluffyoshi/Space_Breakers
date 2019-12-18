@@ -1,0 +1,9 @@
+public class Player
+{
+    public int health;
+    public int attack;
+    public String name;
+    public String weapon;
+    private int weapon_Attack;
+    private String weapon_Name;
+}
