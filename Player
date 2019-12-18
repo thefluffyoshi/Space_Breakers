@@ -6,4 +6,16 @@ public class Player
     public String weapon;
     private int weapon_Attack;
     private String weapon_Name;
-}
+
+    public Player()
+    {
+
+    }//end zero-arg constructor
+
+    //TOSTRING
+    public String toString()
+    {
+        String output = "";
+        return output;
+    }//end toString
+}//end player
