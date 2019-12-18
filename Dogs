@@ -33,11 +33,25 @@ public class Dogs
     }
 
     //BRAIN METHODS
+    private String dogAttackMath()
+    {
+        if (dog_Defense < 45)
+        {
+            int newdefense = dog_Defense - 10;
+            dog_Defense = newdefense;
+            return "Dog defense failed. It's defense is now: " + dog_Defense;
+        }//end if
+        int newdefense2 = dog_Defense - 5;
+        dog_Defense = newdefense2;
+            return "Dog defense successful. It's defense is now: " + dog_Defense;
+    }//end dogDefense
 
     //TOSTRING
     public String toString()
     {
         String output = "";
+        output += "Dog Name: " + dog_Name +
+                "\nDog Health: " + dog_Health;
         return output;
     }//end toString
 
