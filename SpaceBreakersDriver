@@ -1,3 +1,14 @@
+import java.math.*;
+import java.util.Scanner;
 public class SpaceBreakersDriver
 {
-}
+    public static void main(String[] args)
+    {
+        //Enemies
+        Enemy Chris = new Enemy("Chris", 15, 5);
+        Enemy Jose = new Enemy("Jose", 20, 10);
+
+        //Dogs
+        Dogs Fluffy = new Dogs("Fluffy", 30, 30, 5);
+    }//end main
+}//end Driver
